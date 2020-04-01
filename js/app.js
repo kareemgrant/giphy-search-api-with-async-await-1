@@ -29,7 +29,7 @@ $(function () {
   async function search (searchTerm) {
     try {
       const endpoint = 'https://api.giphy.com/v1/gifs/search'
-      const apiKey = 'sgd4T00kBYvHLE88w8XYtedOwFukyfnt'
+      const apiKey = process.env.GIPHY_API_KEY
 
       const response =
         await axios.get(endpoint, {
