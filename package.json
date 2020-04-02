@@ -1,0 +1,27 @@
+{
+  "name": "giphy-search-api-with-async-await-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareemgrant/giphy-search-api-with-async-await-1.git" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kareemgrant/giphy-search-api-with-async-await-1/issues"
+  },
+  "homepage": "https://github.com/kareemgrant/giphy-search-api-with-async-await-1#readme",
+  "browserslist": [
+    "Chrome 78"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
